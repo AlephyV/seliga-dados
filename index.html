@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Consultar dados</title>
+        <meta charset="utf-8"/>
+    </head>
+   
+    <script src="script.js"></script>
+
+    <body>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"/>
+        <button type="submit" onclick="submitForm()" >consultar</button>
+        <br/><br/>
+        <div id="dados">
+            <div>
+                Nome
+                <input type="text" readonly id="nome"/>
+            </div>
+            <div>
+                Pontuacao
+                <input type="text" readonly id="pontuacao"/>
+            </div>
+            <div>
+                Quantidade de medalhas
+                <input type="text" readonly id="medalhas"/>
+            </div>
+            <div>
+                Quantidade de problemas respondidos
+                <input type="text" readonly id="problemas"/>
+            </div>
+            <br/><br/>
+            <div>
+                Pontuacao total: 700+
+            </div>
+            <div>
+                Quantidade de medalhas total: 35
+            </div>
+            <div>
+                Quantidade de problemas respondidos: 70
+            </div>
+        </div>
+    </body>
+    
+</html>
